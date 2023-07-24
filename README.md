@@ -32,15 +32,17 @@ Make sure you have the following software installed on your system:
 
 
 
-**###Getting Started**
+### Getting Started
+
 To run the To-Do List application locally on your machine, follow these steps:
 
-**####Prerequisites**
+#### Prerequisites
+
 Make sure you have the following software installed on your system:
 
 -Node.js (Download and installation instructions can be found here)
 
-**####Installation**
+#### Installation
 1)Clone this GitHub repository to your local machine using your preferred method or download the code as a ZIP archive.
 
 2)Open a terminal or command prompt and navigate to the project directory.
@@ -50,7 +52,7 @@ Make sure you have the following software installed on your system:
 npm install
 
 
-### Running the Application
+#### Running the Application
 
 After the installation is complete, start the application with the following command:
 
@@ -73,9 +75,7 @@ Open your web browser and go to `http://localhost:3000` to access the To-Do List
 
 If you find any issues, have suggestions for improvements, or would like to contribute to this project, please feel free to open an issue or create a pull request. Your feedback and contributions are highly appreciated!
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
