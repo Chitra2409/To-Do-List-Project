@@ -1,0 +1,126 @@
+body{
+    background: linear-gradient(to right,#B3FFAB, #12FFF7);
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    min-height: 95vh;
+    font-size: 1.25rem;
+  }
+main {
+    text-align: center;
+    flex: 1 0 auto;
+  }
+  h1 {
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .box {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #heading {
+    background-color: #3bd8ff;
+    text-align: center;
+    max-width: 500px;
+
+  }
+  
+  .item {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    
+  }
+  
+  .item:last-child {
+    border-bottom: 0;
+  }
+  
+  input:checked + p {
+    text-decoration: line-through;
+    text-decoration-color: #a683e3;
+    text-align: center;
+    
+  }
+  
+  input[type="checkbox"] {
+    margin: 20px;
+  }
+  
+  p {
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: #00204a;
+  }
+  
+  form {
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #3bd8ff;
+    color: #fff;
+    font-size: 30px;
+    border-width: 0;
+    text-align: center;
+    padding-bottom:5px;
+    margin-top: 10px;
+    
+}
+
+
+
+  
+  li{
+    list-style: none;
+    
+  }
+  
+  input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 313px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #a683e3;
+  }
+  
+  ::placeholder {
+    color: lightgray;
+    opacity: 1;
+    text-align: left;
+  }
+  .completed {
+    text-decoration: line-through;
+    text-decoration-color: #a683e3;
+}
+  
+  footer {
+    flex: 0 0 auto;
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+
