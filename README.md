@@ -29,34 +29,11 @@ Make sure you have the following software installed on your system:
 2. Open a terminal or command prompt and navigate to the project directory.
 
 3. Install the required dependencies by running the following command:
+   npm install
 
-
-
-### Getting Started
-
-To run the To-Do List application locally on your machine, follow these steps:
-
-#### Prerequisites
-
-Make sure you have the following software installed on your system:
-
--Node.js (Download and installation instructions can be found here)
-
-#### Installation
-1)Clone this GitHub repository to your local machine using your preferred method or download the code as a ZIP archive.
-
-2)Open a terminal or command prompt and navigate to the project directory.
-
-3)Install the required dependencies by running the following command:
-
-npm install
-
-
-#### Running the Application
+### Running the Application
 
 After the installation is complete, start the application with the following command:
-
-
 
 npm start
 
