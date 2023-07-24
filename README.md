@@ -1,7 +1,5 @@
 # To-Do List Web Application
 
-![To-Do List](todo_list_screenshot.png)
-
 ## Introduction
 
 Welcome to the To-Do List web application! This is a simple web-based task manager that allows you to keep track of your daily tasks and check them off as you complete them. The application is designed using Node.js and Express on the backend, and it uses EJS (Embedded JavaScript) for rendering the frontend interface.
